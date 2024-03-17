@@ -16,3 +16,12 @@ struct Customer {
 // Array to store customers
 struct Customer customers[MAX_CUSTOMERS];
 int numCustomers = 0;
+
+
+//Function prototypes 
+void addCustomer();
+void displayCustomer();
+void deposit();
+void withdraw();
+
+
