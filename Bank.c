@@ -7,3 +7,9 @@
 
 
 //Structure to represent a customer
+struct Customer {
+    char name[50];
+    int accountNumber;
+    float balance;
+};
+
