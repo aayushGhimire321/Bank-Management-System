@@ -13,3 +13,6 @@ struct Customer {
     float balance;
 };
 
+// Array to store customers
+struct Customer customers[MAX_CUSTOMERS];
+int numCustomers = 0;
